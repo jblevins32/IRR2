@@ -19,7 +19,7 @@ hueHigh2=40
 class find_object(Node):
     def init(self):
         # Creates the node.
-        super().__init__(node_name='image_processor')
+        super().__init__(node_name='find_object_py')
         rclpy.logging.get_logger("PreQoS...").info("info info")
         custom_qos_profile=QoSProfile(reliability=QoSReliabilityPolicy.BEST_EFFORT,history=QoSHistoryPolicy.KEEP_LAST,durability=QoSDurabilityPolicy.VOLATILE,depth=1)
         # Subscribe to recieve images from turtlbot camera
@@ -44,11 +44,11 @@ class find_object(Node):
             )
         msg=Float32
         msg.data=target
-        self._coordinate_publisher.publish(msg=msg)
-def main():
+        self._coordinate_publisher.publish(msg)
+def main(args=None):
     rclpy.logging.get_logger("Node Launching").info("Node Launching")
     print("Initializing ROS API")
-    rclpy.init()
+    rclpy.init(args=args)
     object_Finder = find_object()
     rclpy.spin(object_Finder)
     object_Finder.destroy_node()  

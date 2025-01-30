@@ -16,6 +16,7 @@ def capture(frame):
     # Track the ball
     img_orange_tracked, frame_tracked, circle1 = track(img_orange, frame)
     
+    # If no circle is found, set the location to center so the robot does not turn at all
     if circle1 is None:
         circle1 = [320/2]
 
@@ -24,9 +25,9 @@ def capture(frame):
     cv2.imshow('Processed',frame_tracked)
     key = cv2.waitKey(1) & 0xFF
         
-    obj_location = 320/2 - circle1[0]
+    obj_coords = 320/2 - circle1[0]
 
-    return obj_location
+    return obj_coords
     # When everything done, release the capture
     # cv2.destroyAllWindows()
     
@@ -45,7 +46,7 @@ def track(img, img_original):
     # Get the circles from the image. Output is N circles with x,y,r info
     circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, 90, param1=100, param2=30, minRadius=10, maxRadius=500)
    
-    # Only show the circles if they are detected
+    # Only show the circles if they are detected, else None
     if circles is not None:
         # Only look at largest circle
         circle1 = circles[0,np.argmax(circles[0,:,-1], axis=0)]

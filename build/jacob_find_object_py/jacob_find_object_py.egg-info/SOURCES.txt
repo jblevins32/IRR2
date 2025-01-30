@@ -11,6 +11,7 @@ setup.py
 jacob_find_object_py/__init__.py
 jacob_find_object_py/find_object.py
 jacob_find_object_py/find_orange_ball.py
+launch/follow_object.py
 resource/jacob_find_object_py
 test/test_copyright.py
 test/test_flake8.py
