@@ -1,5 +1,0 @@
-  File "/home/burger/lab2_object_finder_py/install/jacob_find_object_py/lib/python3.10/site-packages/jacob_find_object_py/find_object.py", line 24
-    def _image_callback(self, frame)
-                                    ^
-SyntaxError: expected ':'
-

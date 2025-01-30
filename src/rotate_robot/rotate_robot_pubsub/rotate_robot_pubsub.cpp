@@ -9,34 +9,38 @@ using std::placeholders::_1;
 // This class inherits from rclcpp::Node
 class RotateRobot : public rclcpp::Node
 {
-    public:
-        RotateRobot():Node("rotate_robot_pubsub") // This is initializing the node
-        {
-            RCLCPP_INFO(this->get_logger(), "Starting Rotate Robot Node");
+public:
+    RotateRobot():Node("rotate_robot_pubsub") // This is initializing the node
+    {
+        RCLCPP_INFO(this->get_logger(), "Starting Rotate Robot Node");
 
-            // Create a subscription to the topic "coordinates"
-            subscription_ = this->create_subscription<geometry_msgs::msg::Point>(
-                "/obj_coords", 10, std::bind(&RotateRobot::topic_callback, this, _1)); // _1 means the function will allow one argument
+        // Create a subscription to the topic "coordinates"
+        // test publishing to obj_coords with r
+        subscription_ = this->create_subscription<geometry_msgs::msg::Point>(
+            "/obj_coords", rclcpp::QoS(10).reliable(), std::bind(&RotateRobot::topic_callback, this, _1)); // _1 means the function will allow one argument
 
-            publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
-        }
+        publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+    }
 
-    private:
-        void topic_callback(const geometry_msgs::msg::Point & msg)
-        {
-            // Instantiate a Twist message
-            auto twist_msg = geometry_msgs::msg::Twist();
+private:
+    void topic_callback(const geometry_msgs::msg::Point & msg)
+    {
+        // Log the received message IF THIS IS NOT SHOWING, BE SURE THE TOPIC EXISTS IN THE SPECIFIC TERMINAL
+        RCLCPP_INFO(this->get_logger(), "Received coordinates: x=%f, y=%f", msg.x, msg.y);
+        
+        // Instantiate a Twist message
+        auto twist_msg = geometry_msgs::msg::Twist();
+        
+        // Calculate proportional control command which is a twist around the z axis
+        twist_msg.angular.z = 320/2 - msg.x;
 
-            // Calculate proportional control command which is a twist around the z axis
-            twist_msg.angular.z = 320/2 - msg.x;
+        // Publish the command velocity
+        publisher_->publish(twist_msg);
+    }
 
-            // Publish the command velocity
-            publisher_->publish(twist_msg);
-        }
-
-        // memory management in cpp
-        rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr subscription_;
-        rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+    // memory management in cpp
+    rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr subscription_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
 };
 
 int main(int argc, char * argv[])

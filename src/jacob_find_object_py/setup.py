@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'subscriber = find_object_py.find_object:main'
+            'subscriber = jacob_find_object_py.find_object:main'
         ],
     },
 )

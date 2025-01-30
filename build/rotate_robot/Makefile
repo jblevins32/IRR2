@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/burger/lab2_object_finder_py/src/rotate_robot
+CMAKE_SOURCE_DIR = /home/jblevins32/IRR2/src/rotate_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/burger/lab2_object_finder_py/build/rotate_robot
+CMAKE_BINARY_DIR = /home/jblevins32/IRR2/build/rotate_robot
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/burger/lab2_object_finder_py/build/rotate_robot/CMakeFiles /home/burger/lab2_object_finder_py/build/rotate_robot//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jblevins32/IRR2/build/rotate_robot/CMakeFiles /home/jblevins32/IRR2/build/rotate_robot//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/burger/lab2_object_finder_py/build/rotate_robot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jblevins32/IRR2/build/rotate_robot/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
