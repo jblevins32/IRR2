@@ -1,0 +1,130 @@
+[4.152s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbad706d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbad70df0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbad70df0>>)
+[4.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.357s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/burger/lab2_object_finder_py'
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extensions ['ignore', 'ignore_ament_install']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extension 'ignore'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extension 'ignore_ament_install'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extensions ['colcon_pkg']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extension 'colcon_pkg'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extensions ['colcon_meta']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extension 'colcon_meta'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extensions ['ros']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_object_py) by extension 'ros'
+[4.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/find_object_py' with type 'ros.ament_python' and name 'find_object_py'
+[4.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.915s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/burger/lab2_object_finder_py/install
+[4.971s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/burger/dontTouch_ws/install
+[5.033s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 206 installed packages in /opt/ros/humble
+[5.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.348s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'cmake_args' from command line to 'None'
+[5.348s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'cmake_target' from command line to 'None'
+[5.349s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.349s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'cmake_clean_cache' from command line to 'False'
+[5.349s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'cmake_clean_first' from command line to 'False'
+[5.349s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'cmake_force_configure' from command line to 'False'
+[5.349s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'ament_cmake_args' from command line to 'None'
+[5.349s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'catkin_cmake_args' from command line to 'None'
+[5.349s] Level 5:colcon.colcon_core.verb:set package 'find_object_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.349s] DEBUG:colcon.colcon_core.verb:Building package 'find_object_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/burger/lab2_object_finder_py/build/find_object_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/burger/lab2_object_finder_py/install/find_object_py', 'merge_install': False, 'path': '/home/burger/lab2_object_finder_py/src/find_object_py', 'symlink_install': False, 'test_result_base': None}
+[5.410s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.469s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/burger/lab2_object_finder_py/src/find_object_py' with build type 'ament_python'
+[5.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_py', 'ament_prefix_path')
+[5.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/hook/ament_prefix_path.ps1'
+[5.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/hook/ament_prefix_path.dsv'
+[5.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/hook/ament_prefix_path.sh'
+[5.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.087s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/burger/lab2_object_finder_py/src/find_object_py'
+[7.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/burger/lab2_object_finder_py/src/find_object_py': PYTHONPATH=/home/burger/lab2_object_finder_py/build/find_object_py/prefix_override:/home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_object_py build --build-base /home/burger/lab2_object_finder_py/build/find_object_py/build install --record /home/burger/lab2_object_finder_py/build/find_object_py/install.log --single-version-externally-managed
+[10.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/burger/lab2_object_finder_py/src/find_object_py' returned '0': PYTHONPATH=/home/burger/lab2_object_finder_py/build/find_object_py/prefix_override:/home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_object_py build --build-base /home/burger/lab2_object_finder_py/build/find_object_py/build install --record /home/burger/lab2_object_finder_py/build/find_object_py/install.log --single-version-externally-managed
+[10.557s] Level 1:colcon.colcon_core.environment:checking '/home/burger/lab2_object_finder_py/install/find_object_py' for CMake module files
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/burger/lab2_object_finder_py/install/find_object_py' for CMake config files
+[10.563s] Level 1:colcon.colcon_core.environment:checking '/home/burger/lab2_object_finder_py/install/find_object_py/lib'
+[10.563s] Level 1:colcon.colcon_core.environment:checking '/home/burger/lab2_object_finder_py/install/find_object_py/bin'
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/burger/lab2_object_finder_py/install/find_object_py/lib/pkgconfig/find_object_py.pc'
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages'
+[10.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_py', 'pythonpath')
+[10.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/hook/pythonpath.ps1'
+[10.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/hook/pythonpath.dsv'
+[10.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/hook/pythonpath.sh'
+[10.627s] Level 1:colcon.colcon_core.environment:checking '/home/burger/lab2_object_finder_py/install/find_object_py/bin'
+[10.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(find_object_py)
+[10.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/package.ps1'
+[10.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/package.dsv'
+[10.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/package.sh'
+[10.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/package.bash'
+[10.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py/package.zsh'
+[10.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/burger/lab2_object_finder_py/install/find_object_py/share/colcon-core/packages/find_object_py)
+[10.707s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.709s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.791s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.795s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[10.795s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/lab2_object_finder_py/install/local_setup.ps1'
+[10.867s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/lab2_object_finder_py/install/_local_setup_util_ps1.py'
+[10.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/lab2_object_finder_py/install/setup.ps1'
+[10.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/lab2_object_finder_py/install/local_setup.sh'
+[10.966s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/lab2_object_finder_py/install/_local_setup_util_sh.py'
+[10.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/lab2_object_finder_py/install/setup.sh'
+[11.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/lab2_object_finder_py/install/local_setup.bash'
+[11.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/lab2_object_finder_py/install/setup.bash'
+[11.100s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/lab2_object_finder_py/install/local_setup.zsh'
+[11.103s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/lab2_object_finder_py/install/setup.zsh'

@@ -1,0 +1,17 @@
+/home/burger/lab2_object_finder_py/install/rotate_robot/lib/rotate_robot/rotate_robot_pubsub
+/home/burger/lab2_object_finder_py/install/rotate_robot/lib/rotate_robot/test_publisher
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/ament_index/resource_index/package_run_dependencies/rotate_robot
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/ament_index/resource_index/parent_prefix_path/rotate_robot
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/environment/ament_prefix_path.sh
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/environment/ament_prefix_path.dsv
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/environment/path.sh
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/environment/path.dsv
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/local_setup.bash
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/local_setup.sh
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/local_setup.zsh
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/local_setup.dsv
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/package.dsv
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/ament_index/resource_index/packages/rotate_robot
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/cmake/rotate_robotConfig.cmake
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/cmake/rotate_robotConfig-version.cmake
+/home/burger/lab2_object_finder_py/install/rotate_robot/share/rotate_robot/package.xml

@@ -1,0 +1,8 @@
+source;share/rotate_robot/hook/cmake_prefix_path.ps1
+source;share/rotate_robot/hook/cmake_prefix_path.dsv
+source;share/rotate_robot/hook/cmake_prefix_path.sh
+source;share/rotate_robot/local_setup.bash
+source;share/rotate_robot/local_setup.dsv
+source;share/rotate_robot/local_setup.ps1
+source;share/rotate_robot/local_setup.sh
+source;share/rotate_robot/local_setup.zsh

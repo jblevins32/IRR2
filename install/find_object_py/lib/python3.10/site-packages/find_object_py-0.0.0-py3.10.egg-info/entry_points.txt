@@ -1,0 +1,3 @@
+[console_scripts]
+find_object = find_object_py.find_object:main
+

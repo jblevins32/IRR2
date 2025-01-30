@@ -1,0 +1,30 @@
+[3.570s] Invoking command in '/home/burger/lab2_object_finder_py/src/find_object_py': PYTHONPATH=/home/burger/lab2_object_finder_py/build/find_object_py/prefix_override:/home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_object_py build --build-base /home/burger/lab2_object_finder_py/build/find_object_py/build install --record /home/burger/lab2_object_finder_py/build/find_object_py/install.log --single-version-externally-managed
+[4.685s] running egg_info
+[4.688s] creating ../../build/find_object_py/find_object_py.egg-info
+[4.691s] writing manifest file '../../build/find_object_py/find_object_py.egg-info/SOURCES.txt'
+[4.701s] writing manifest file '../../build/find_object_py/find_object_py.egg-info/SOURCES.txt'
+[4.702s] running build
+[4.702s] running build_py
+[4.703s] creating /home/burger/lab2_object_finder_py/build/find_object_py/build
+[4.703s] creating /home/burger/lab2_object_finder_py/build/find_object_py/build/lib
+[4.704s] creating /home/burger/lab2_object_finder_py/build/find_object_py/build/lib/find_object_py
+[4.704s] copying find_object_py/__init__.py -> /home/burger/lab2_object_finder_py/build/find_object_py/build/lib/find_object_py
+[4.704s] copying find_object_py/color_blob_detect.py -> /home/burger/lab2_object_finder_py/build/find_object_py/build/lib/find_object_py
+[4.705s] copying find_object_py/find_object.py -> /home/burger/lab2_object_finder_py/build/find_object_py/build/lib/find_object_py
+[4.706s] running install
+[4.710s] running install_lib
+[4.713s] creating /home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages/find_object_py
+[4.717s] byte-compiling /home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages/find_object_py/__init__.py to __init__.cpython-310.pyc
+[4.719s] byte-compiling /home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages/find_object_py/color_blob_detect.py to color_blob_detect.cpython-310.pyc
+[4.721s] byte-compiling /home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages/find_object_py/find_object.py to find_object.cpython-310.pyc
+[4.723s] running install_data
+[4.725s] creating /home/burger/lab2_object_finder_py/install/find_object_py/share/ament_index
+[4.726s] creating /home/burger/lab2_object_finder_py/install/find_object_py/share/ament_index/resource_index
+[4.726s] creating /home/burger/lab2_object_finder_py/install/find_object_py/share/ament_index/resource_index/packages
+[4.727s] copying resource/find_object_py -> /home/burger/lab2_object_finder_py/install/find_object_py/share/ament_index/resource_index/packages
+[4.727s] copying package.xml -> /home/burger/lab2_object_finder_py/install/find_object_py/share/find_object_py
+[4.727s] running install_egg_info
+[4.735s] Copying ../../build/find_object_py/find_object_py.egg-info to /home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages/find_object_py-0.0.0-py3.10.egg-info
+[4.740s] running install_scripts
+[4.822s] writing list of installed files to '/home/burger/lab2_object_finder_py/build/find_object_py/install.log'
+[4.960s] Invoked command in '/home/burger/lab2_object_finder_py/src/find_object_py' returned '0': PYTHONPATH=/home/burger/lab2_object_finder_py/build/find_object_py/prefix_override:/home/burger/lab2_object_finder_py/install/find_object_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_object_py build --build-base /home/burger/lab2_object_finder_py/build/find_object_py/build install --record /home/burger/lab2_object_finder_py/build/find_object_py/install.log --single-version-externally-managed
