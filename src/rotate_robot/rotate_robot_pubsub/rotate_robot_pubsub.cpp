@@ -2,6 +2,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/point.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include <algorithm>
 
 // use literals instead of std:chrono every time
 using std::placeholders::_1;
@@ -32,7 +33,8 @@ private:
         auto twist_msg = geometry_msgs::msg::Twist();
         
         // Calculate proportional control command which is a twist around the z axis
-        twist_msg.angular.z = 320/2 - msg.x;
+        twist_msg.angular.z = msg.x;
+        RCLCPP_INFO(this->get_logger(), "Twist command: %f", twist_msg.angular.z);
 
         // Publish the command velocity
         publisher_->publish(twist_msg);

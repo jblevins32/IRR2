@@ -1,0 +1,28 @@
+[0.354s] Invoking command in '/home/jblevins32/IRR2/build/rotate_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jblevins32/IRR2/install/jacob_find_object_py:/home/jblevins32/IRR2/install/find_object_py:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jblevins32/IRR2/build/rotate_robot -- -j28 -l28
+[0.387s] [35m[1mConsolidate compiler generated dependencies of target rotate_robot_pubsub[0m
+[0.399s] [ 75%] Built target test_publisher
+[0.399s] [ 75%] [32mBuilding CXX object CMakeFiles/rotate_robot_pubsub.dir/rotate_robot_pubsub/rotate_robot_pubsub.cpp.o[0m
+[5.580s] [100%] [32m[1mLinking CXX executable rotate_robot_pubsub[0m
+[5.843s] [100%] Built target rotate_robot_pubsub
+[5.852s] Invoked command in '/home/jblevins32/IRR2/build/rotate_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jblevins32/IRR2/install/jacob_find_object_py:/home/jblevins32/IRR2/install/find_object_py:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jblevins32/IRR2/build/rotate_robot -- -j28 -l28
+[5.860s] Invoking command in '/home/jblevins32/IRR2/build/rotate_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jblevins32/IRR2/install/jacob_find_object_py:/home/jblevins32/IRR2/install/find_object_py:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jblevins32/IRR2/build/rotate_robot
+[5.866s] -- Install configuration: ""
+[5.866s] -- Installing: /home/jblevins32/IRR2/install/rotate_robot/lib/rotate_robot/rotate_robot_pubsub
+[5.871s] -- Set runtime path of "/home/jblevins32/IRR2/install/rotate_robot/lib/rotate_robot/rotate_robot_pubsub" to ""
+[5.871s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/lib/rotate_robot/test_publisher
+[5.871s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/ament_index/resource_index/package_run_dependencies/rotate_robot
+[5.871s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/ament_index/resource_index/parent_prefix_path/rotate_robot
+[5.871s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/environment/ament_prefix_path.sh
+[5.871s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/environment/ament_prefix_path.dsv
+[5.871s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/environment/path.sh
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/environment/path.dsv
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/local_setup.bash
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/local_setup.sh
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/local_setup.zsh
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/local_setup.dsv
+[5.872s] -- Installing: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/package.dsv
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/ament_index/resource_index/packages/rotate_robot
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/cmake/rotate_robotConfig.cmake
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/cmake/rotate_robotConfig-version.cmake
+[5.872s] -- Up-to-date: /home/jblevins32/IRR2/install/rotate_robot/share/rotate_robot/package.xml
+[5.874s] Invoked command in '/home/jblevins32/IRR2/build/rotate_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jblevins32/IRR2/install/jacob_find_object_py:/home/jblevins32/IRR2/install/find_object_py:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jblevins32/IRR2/build/rotate_robot

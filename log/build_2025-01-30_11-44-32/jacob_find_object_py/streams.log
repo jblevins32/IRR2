@@ -1,0 +1,21 @@
+[0.554s] Invoking command in '/home/jblevins32/IRR2/src/jacob_find_object_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jblevins32/IRR2/build/jacob_find_object_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jblevins32/IRR2/install/jacob_find_object_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jacob_find_object_py build --build-base /home/jblevins32/IRR2/build/jacob_find_object_py/build install --record /home/jblevins32/IRR2/build/jacob_find_object_py/install.log --single-version-externally-managed install_data
+[0.700s] running egg_info
+[0.701s] writing ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/PKG-INFO
+[0.701s] writing dependency_links to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/dependency_links.txt
+[0.701s] writing entry points to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/entry_points.txt
+[0.701s] writing requirements to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/requires.txt
+[0.702s] writing top-level names to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/top_level.txt
+[0.702s] reading manifest file '../../build/jacob_find_object_py/jacob_find_object_py.egg-info/SOURCES.txt'
+[0.703s] writing manifest file '../../build/jacob_find_object_py/jacob_find_object_py.egg-info/SOURCES.txt'
+[0.703s] running build
+[0.703s] running build_py
+[0.703s] running install
+[0.703s] running install_lib
+[0.704s] running install_data
+[0.704s] running install_egg_info
+[0.705s] removing '/home/jblevins32/IRR2/install/jacob_find_object_py/lib/python3.10/site-packages/jacob_find_object_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.705s] Copying ../../build/jacob_find_object_py/jacob_find_object_py.egg-info to /home/jblevins32/IRR2/install/jacob_find_object_py/lib/python3.10/site-packages/jacob_find_object_py-0.0.0-py3.10.egg-info
+[0.705s] running install_scripts
+[0.719s] Installing subscriber script to /home/jblevins32/IRR2/install/jacob_find_object_py/lib/jacob_find_object_py
+[0.719s] writing list of installed files to '/home/jblevins32/IRR2/build/jacob_find_object_py/install.log'
+[0.735s] Invoked command in '/home/jblevins32/IRR2/src/jacob_find_object_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jblevins32/IRR2/build/jacob_find_object_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jblevins32/IRR2/install/jacob_find_object_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jacob_find_object_py build --build-base /home/jblevins32/IRR2/build/jacob_find_object_py/build install --record /home/jblevins32/IRR2/build/jacob_find_object_py/install.log --single-version-externally-managed install_data

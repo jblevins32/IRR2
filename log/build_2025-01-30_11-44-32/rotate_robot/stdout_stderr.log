@@ -1,0 +1,12 @@
+[ 75%] Built target test_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/rotate_robot_pubsub.dir/rotate_robot_pubsub/rotate_robot_pubsub.cpp.o[0m
+[01m[K/home/jblevins32/IRR2/src/rotate_robot/rotate_robot_pubsub/rotate_robot_pubsub.cpp:[m[K In member function ‘[01m[Kvoid RotateRobot::topic_callback(const Point&)[m[K’:
+[01m[K/home/jblevins32/IRR2/src/rotate_robot/rotate_robot_pubsub/rotate_robot_pubsub.cpp:38:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ and ‘[01m[Kdouble[m[K’)
+   38 |         publisher_->publish([32m[Ktwist_msg[m[K[01;31m[K*[m[K[34m[K.1[m[K);
+      |                             [32m[K~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~[m[K
+      |                             [32m[K|[m[K         [34m[K|[m[K
+      |                             [32m[K|[m[K         [34m[Kdouble[m[K
+      |                             [32m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K
+gmake[2]: *** [CMakeFiles/rotate_robot_pubsub.dir/build.make:76: CMakeFiles/rotate_robot_pubsub.dir/rotate_robot_pubsub/rotate_robot_pubsub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rotate_robot_pubsub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

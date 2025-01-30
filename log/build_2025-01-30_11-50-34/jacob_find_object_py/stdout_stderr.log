@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/dependency_links.txt
+writing entry points to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/entry_points.txt
+writing requirements to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/requires.txt
+writing top-level names to ../../build/jacob_find_object_py/jacob_find_object_py.egg-info/top_level.txt
+reading manifest file '../../build/jacob_find_object_py/jacob_find_object_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/jacob_find_object_py/jacob_find_object_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jblevins32/IRR2/install/jacob_find_object_py/lib/python3.10/site-packages/jacob_find_object_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/jacob_find_object_py/jacob_find_object_py.egg-info to /home/jblevins32/IRR2/install/jacob_find_object_py/lib/python3.10/site-packages/jacob_find_object_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing subscriber script to /home/jblevins32/IRR2/install/jacob_find_object_py/lib/jacob_find_object_py
+writing list of installed files to '/home/jblevins32/IRR2/build/jacob_find_object_py/install.log'
