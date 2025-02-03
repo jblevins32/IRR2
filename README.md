@@ -6,3 +6,6 @@ This ROS2 package is an orange-ball following program. Run
 
 Ideally, we can run these all with the launch file:
 `ros2 launch jacob_find_object_py follow_object.py`
+
+## ROS Diagram
+![rosdiagram](path/to/image.png)
