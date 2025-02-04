@@ -24,8 +24,10 @@ def capture(frame):
     cv2.imshow('Original',img_orange_tracked)
     cv2.imshow('Processed',frame_tracked)
     key = cv2.waitKey(1) & 0xFF
-        
-    obj_coords = 320/2 - circle1[0]
+    
+    # Center the circle coordinates to the center of the image and norm it so the coordinate range is in (-1,1). Negative values are left of center and positive values are right of center
+    img_width = 320 # horizontal pixels
+    obj_coords = (img_width/2 - circle1[0])/(img_width/2)
 
     return obj_coords
     # When everything done, release the capture

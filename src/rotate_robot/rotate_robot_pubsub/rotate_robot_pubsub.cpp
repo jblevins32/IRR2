@@ -33,7 +33,8 @@ private:
         auto twist_msg = geometry_msgs::msg::Twist();
         
         // Calculate proportional control command which is a twist around the z axis
-        twist_msg.angular.z = msg.x;
+        int Kp = 2.5;
+        twist_msg.angular.z = Kp*msg.x;
         RCLCPP_INFO(this->get_logger(), "Twist command: %f", twist_msg.angular.z);
 
         // Publish the command velocity

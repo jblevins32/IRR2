@@ -17,7 +17,7 @@ def generate_launch_description():
 
         # Launch the CV node
         launch_ros.actions.Node(
-            package='jacob_find_object_py',
+            package='find_object_py',
             executable='subscriber',
             name='object_tracker',
             output='screen'
